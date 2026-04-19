@@ -512,4 +512,5 @@ async def adminabuse(ctx):
     await asyncio.sleep(86400)
     await admin_abuse(ctx.guild)
 
-bot.run("MTQ5NTA2NDE0MDY1NjU0MTc1OQ.GC_c63.7d-v8mDqS3IXxHgJeEnN7MS4eLLzo2afA3mVyg")
+import os
+bot.run(os.getenv("MTQ5NTA2NDE0MDY1NjU0MTc1OQ.GC_c63.7d-v8mDqS3IXxHgJeEnN7MS4eLLzo2afA3mVyg"))
